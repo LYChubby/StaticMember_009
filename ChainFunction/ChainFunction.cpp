@@ -12,3 +12,10 @@ public:
 		return this->judul;
 	}
 } bukunya;
+
+int main() {
+	// bukunya.setJudul("Mtematika");
+	// cout << bukunya.getJudul();
+	cout << bukunya.setJudul("Matematika").getJudul();   // Chain Function Calss
+	return 0;
+}
